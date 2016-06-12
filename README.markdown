@@ -114,7 +114,10 @@ Over.
 ```
 
 ```common-lisp
-HOEDOWN> (add-hoedown-extensions :hoedown-ext-autolink :hoedown-ext-footnotes :hoedown-ext-strikethrough)
+HOEDOWN> (add-hoedown-extensions :hoedown-ext-autolink ;; Automatically parse URLs into links
+                                 :hoedown-ext-footnotes ;; Enables Markdown Extra style footnotes
+                                 :hoedown-ext-strikethrough ;; Enables ~~striking~~ text
+                                 )
 (:HOEDOWN-EXT-STRIKETHROUGH :HOEDOWN-EXT-FOOTNOTES :HOEDOWN-EXT-AUTOLINK)
 HOEDOWN> (render #P"/tmp/test.md")
 "<h1>h1</h1>
