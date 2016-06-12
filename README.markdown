@@ -67,7 +67,7 @@ HOEDOWN> (render #P"/tmp/test.md")
 
 There are a lot of options that can affect the behavior of the **rendering**.
 
-### *hoedown-extensions*
+<h3>*hoedown-extensions*</h3>
 
 Hoedown Extensions, which affects the behavior of Markdown syntax such as tables, autolinking, footnotes... The enabled extensions are:
 
@@ -160,7 +160,7 @@ HOEDOWN> (render #P"/tmp/test.md")
 
 There is also a function `delete-hoedown-extensions`, which I guess you'll barely have to use...
 
-### *hoedown-html-flags*
+<h3>*hoedown-html-flags*</h3>
 
 Hoedown html flags, which derectly affects the behavior of hoedown html renderers. The enabled flags are:
 
@@ -170,15 +170,15 @@ Hoedown html flags, which derectly affects the behavior of hoedown html renderer
 
 You can enable multiple flags by using `add-hoedown-html-flags`, and there's also a function `delete-hoedown-html-flags`.
 
-### *hoedown-buffer-unit-size*
+<h3>*hoedown-buffer-unit-size*</h3>
 
 Reallocation unit size (0 = read-only buffer) for a hoedown buffer, set to `16` by default.
 
-### *hoedown-html-renderer-nesting-levels*
+<h3>*hoedown-html-renderer-nesting-levels*</h3>
 
 Nesting levels for a hoedown html renderer, set to `0` by default.
 
-### *hoedown-document-max-nesting*
+<h3>*hoedown-document-max-nesting*</h3>
 
 Max nesting for a hoedown document, set to `16` by default.
 
