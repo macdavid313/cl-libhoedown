@@ -1,5 +1,7 @@
 # cl-libhoedown 
 
+[![Quicklisp](http://quickdocs.org/badge/cl-libhoedown.svg)](http://quickdocs.org/cl-libhoedown/)
+
 Common Lisp Binding for [Hoedown](https://github.com/hoedown/hoedown), a standards compliant, fast, secure markdown processing library in C.
 
 ## Installation
