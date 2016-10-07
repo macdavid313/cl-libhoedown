@@ -1,12 +1,12 @@
 #|
   This file is a part of cl-libhoedown project.
-  Copyright (c) 2016 David Gu (david_guru@gty.org.in)
+  Copyright (c) 2016 David Gu (macdavid313@gmail.com)
 |#
 
 #|
   Common Lisp Binding for Hoedown.
 
-  Author: David Gu (david_guru@gty.org.in)
+  Author: David Gu (macdavid313@gmail.com)
 |#
 
 (in-package :cl-user)
