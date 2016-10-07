@@ -213,8 +213,8 @@ For now, this binding only supports a subset of features from Hoedown. So the fe
 
 ## Author
 
-* David Gu (david_guru@gty.org.in)
+* David Gu (macdavid313@gmail.com)
 
 ## Copyright
 
-Copyright (c) 2016 David Gu (david_guru@gty.org.in)
+Copyright (c) 2016 David Gu (macdavid313@gmail.com)
